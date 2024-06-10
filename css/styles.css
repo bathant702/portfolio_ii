@@ -6,3 +6,18 @@
   /* height & width now includes border & padding */
   box-sizing: border-box;
 }
+
+.sect {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.front-page-banner {
+  padding: 0 2rem 0 2rem;
+  height: 27vh;
+}
+
+.foot-stamp {
+  padding: 0 2rem 0 2rem;
+  height: 15vh;
+}
