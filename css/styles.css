@@ -7,14 +7,42 @@
   box-sizing: border-box;
 }
 
+.page-dimensions {
+  max-width: 1200px;
+}
+
+.headline {
+  width: 80vh;
+  text-align: center;
+}
+
 .sect {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 90vh;
+}
+
+.spacer {
+  border: 1px;
+  border-color: blue;
+  border-style: solid;
+  height: 10vh;
 }
 
 .front-page-banner {
   padding: 0 2rem 0 2rem;
-  height: 27vh;
+  height: 90vh;
+}
+
+.credentials-sect-intro {
+  width: 80vh;
+}
+
+.skill-box {
+  border: 1px;
+  border-color: red;
+  border-style: solid;
+  margin-top: 2%;
 }
 
 .foot-stamp {
