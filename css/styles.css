@@ -8,7 +8,7 @@
 }
 
 .page-dimensions {
-  max-width: 1200px;
+  max-width: 900px;
 }
 
 .headline {
@@ -19,18 +19,25 @@
 .sect {
   padding-top: 10px;
   padding-bottom: 10px;
-  height: 90vh;
+  /* height: 100vh; */
+  /* height causes issues with formating. might need to do a custom height for certain sections.
+  also look into using @media in order to adjust layout */
 }
 
 .spacer {
   border: 1px;
   border-color: blue;
   border-style: solid;
-  height: 10vh;
+  height: 50px;
 }
 
+/* css for each section */
 .front-page-banner {
   padding: 0 2rem 0 2rem;
+  height: 100vh;
+}
+
+.about-me-sect {
   height: 90vh;
 }
 
@@ -45,7 +52,15 @@
   margin-top: 2%;
 }
 
+.showcase-columns {
+  margin: 15px 10px;
+}
+
+.social-media-sect {
+  height: 40vh;
+}
+
 .foot-stamp {
   padding: 0 2rem 0 2rem;
-  height: 15vh;
+  height: 30vh;
 }
