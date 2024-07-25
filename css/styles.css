@@ -37,10 +37,17 @@
   height: 100vh;
 }
 
-.about-me-sect {
-  height: 90vh;
+.about-me-banner {
+  height: 125px;
 }
 
+.about-me-sect {
+  /* height: 90vh; */
+}
+
+.credentials-sect {
+  height: 90vh;
+}
 .credentials-sect-intro {
   width: 80vh;
 }
